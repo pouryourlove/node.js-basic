@@ -61,12 +61,12 @@ import * as fs from 'fs/promises';
 //   console.log(error);
 // }
 
-//Get File information
-try {
-  const info = await fs.stat("info.txt")
-    //   console.log(info)  
-    console.log(info.isDirectory());//false
-    console.log(info.isFile());//true
-} catch (error) {
-  console.log(error);
-}
+// Get File information
+// try {
+//   const info = await fs.stat("info.txt")
+//     //   console.log(info)  
+//     console.log(info.isDirectory());//false
+//     console.log(info.isFile());//true
+// } catch (error) {
+//   console.log(error);
+// }
